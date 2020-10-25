@@ -1,0 +1,62 @@
+.grid-container{
+	display:grid;
+	grid-template-columns: 227px 227px 227px 300px ; 
+	grid-template-rows:   100px 165px 240px 100px;
+	grid-gap: 5px;
+
+				
+}
+
+.menu{
+	grid-row-start: 1;
+	grid-row-end: 1;
+
+}
+
+.banner {
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.commando {
+	grid-row-start:3;
+	grid-row-end:4;
+}
+
+.max-verstappen {
+	grid-row-start:3;
+	grid-row-end: 4;
+	grid-column-start:3;
+	grid-column-end: 4; 
+	
+}
+
+.net-binnen {
+	grid-row-start:3;
+	grid-row-end: 5;
+	grid-column-start:4;
+	grid-column-end: 5; 
+}
+
+.vaccin {
+	grid-row-start:5;
+	grid-row-end: 6;
+	grid-column-start:1;
+	grid-column-end: 2; 
+
+}
+	
+.zonovergoten {
+	grid-row-start:5;
+	grid-row-end: 6;
+	grid-column-start:2;
+	grid-column-end: 3; 
+}		 
+
+.schandaal {
+	grib-row-start:5;
+	grid-row-end: 6;
+	grid-column-start:3;
+	grid-column-end: 4; 
+}
+			
